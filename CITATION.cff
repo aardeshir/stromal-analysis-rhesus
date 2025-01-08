@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: Please cite this research as below.
+authors:
+  - family-names: Ardeshir
+    given-names: A.
+    affiliation: Tulane University
+title: Stromal Cell Analysis in Primate Colon
+version: 1.0.0
+date-released: 2025-01-08
+repository-url: https://github.com/ArdeshirLab/stromal-analysis-rhesus
