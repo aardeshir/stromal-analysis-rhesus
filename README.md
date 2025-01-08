@@ -1,7 +1,6 @@
 # Rhesus Stromal Cell Analysis
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![R-CMD-check](https://github.com/ArdeshirLab/stromal-analysis-rhesus/workflows/R-CMD-check/badge.svg)](https://github.com/ArdeshirLab/stromal-analysis-rhesus/actions)
 
 Analysis of BMP2-expressing stromal cells in primate colon comparing chronic diarrhea vs control cases.
 
@@ -32,10 +31,6 @@ renv::restore()
 ## Usage
 
 Main analysis script: `R/stromal_analysis.R`
-
-## Contributing
-
-Contributions are welcome. Please open an issue first to discuss proposed changes.
 
 ## License
 
