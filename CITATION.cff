@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: Please cite this research as below.
+message: If you use this software, please cite it using these metadata.
 authors:
   - family-names: Ardeshir
     given-names: A.
@@ -7,4 +7,5 @@ authors:
 title: Stromal Cell Analysis in Primate Colon
 version: 1.0.0
 date-released: 2025-01-08
+license: MIT
 repository-url: https://github.com/ArdeshirLab/stromal-analysis-rhesus

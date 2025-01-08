@@ -1,5 +1,8 @@
 # Rhesus Stromal Cell Analysis
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![R-CMD-check](https://github.com/ArdeshirLab/stromal-analysis-rhesus/workflows/R-CMD-check/badge.svg)](https://github.com/ArdeshirLab/stromal-analysis-rhesus/actions)
+
 Analysis of BMP2-expressing stromal cells in primate colon comparing chronic diarrhea vs control cases.
 
 ## Project Overview
@@ -9,34 +12,34 @@ This project examines BMP2-expressing stromal cells in chronic diarrhea vs contr
 - Control: RC56.1 (born 2023-05-14)
 
 ## Repository Structure
-
 ```
-├── data/           # Raw and processed data (not tracked in git)
+├── data/           # Raw and processed data
 ├── R/              # R scripts for analysis
-├── output/         # Analysis outputs (not tracked in git)
+├── output/         # Analysis outputs
 │   ├── plots/      # Generated figures
 │   └── processed/  # Processed data files
 ├── docs/           # Documentation and protocols
 └── renv/           # R environment management
 ```
 
-## Setup Instructions
+## Setup
 
-1. Clone the repository
-2. Install R dependencies:
 ```R
 install.packages('renv')
 renv::restore()
 ```
 
-## Analysis Pipeline
+## Usage
 
-The main analysis script `R/stromal_analysis.R` performs:
-1. Data loading and preprocessing
-2. Marker quality analysis
-3. Stromal cell identification
-4. BMP2 expression analysis
-5. Statistical testing and visualization
+Main analysis script: `R/stromal_analysis.R`
+
+## Contributing
+
+Contributions are welcome. Please open an issue first to discuss proposed changes.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Contact
 
