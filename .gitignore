@@ -9,15 +9,7 @@ data/*
 !data/README.md
 output/*
 !output/README.md
-renv/library/
-renv/local/
-renv/lock/
-renv/python/
 
 # OS specific
 .DS_Store
 Thumbs.db
-
-# Private configuration
-.env
-config.yml
